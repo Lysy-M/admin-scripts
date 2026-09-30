@@ -1,0 +1,7 @@
+*.log
+output/
+reports/
+credentials/
+secrets/
+.env
+.env.*
