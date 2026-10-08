@@ -26,7 +26,7 @@ free -h
 echo
 echo "===== STORAGE ====="
 lsblk -o NAME,SIZE,FSTYPE,TYPE,MOUNTPOINTS 2>/dev/null || true
-df -hT -x tmpfs -x devtmpfs
+df -hT -x tmpfs -x devtmpfs 2>/dev/null
 
 echo
 echo "===== NETWORK ====="
